@@ -1,3 +1,18 @@
-theme: jekyll-theme-architect
-title: Homepage
-description: The journey to get to the goals I've made myself.
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "sunrise"
+title: My Craggy Road to My Goals
+description: Welcome to my clumsy life..
+
+# Author details for sidebar
+author:
+  name: "Brooke"
+  avatar: "/assets/images/profile.jpg" # Path to your uploaded image
+
+# Inject custom styles directly into the header block
+header_pages:
+  - index.md
+
+custom_css: |
+  body {
+    background-color: #f0f4f8 !important;
+  }
